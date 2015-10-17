@@ -5,9 +5,34 @@
     xmlns:local="using:VideoAds"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+       xmlns:Universal="using:Microsoft.AdMediator.Universal"
     mc:Ignorable="d">
-
+<Page.BottomAppBar    >
+        <CommandBar  x:Name="appBar" >
+            <CommandBar.PrimaryCommands >
+                <AppBarButton  Label="Remove ads" Icon="Cancel"  Click="Show_Click" />
+                
+            </CommandBar.PrimaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+ <Universal:AdMediatorControl 
+            x:Name="AdMediator_4BF1A7" 
+            HorizontalAlignment="Center" 
+            Height="80" 
+            Id="feef0049-86b5-433c-a80a-e11d74593732" 
+            VerticalAlignment="Top"
+           Visibility="Visible"
+            Width="480" Margin="0,520,0,0" 
+            />
+<UI:AdControl ApplicationId="e6840b0c-e2cb-4b7f-9cbe-cf3353fb2140" 
+                      AdUnitId="250866" 
+                      HorizontalAlignment="Center" 
+                      Height="80" 
+                      VerticalAlignment="Bottom" 
+                      Width="480" Visibility="Visible" 
+              IsAutoRefreshEnabled="True" 
+              />
     </Grid>
 </Page>
