@@ -1,0 +1,2 @@
+MainPackage=C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\COV\COV\bin\x64\Release\COV_1.1.7.0_x64.appx
+SymbolPackage=C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\COV\COV\AppPackages\COV_1.1.7.0_Test\COV_1.1.7.0_x64.appxsym

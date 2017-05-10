@@ -1,0 +1,2 @@
+MainPackage=C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\COV\COV\bin\ARM\Release\Upload\COV_1.1.7.0_ARM.appx
+SymbolPackage=C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\COV\COV\AppPackages\COV_1.1.7.0\COV_1.1.7.0_ARM.appxsym
